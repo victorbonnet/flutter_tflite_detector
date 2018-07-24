@@ -1,0 +1,20 @@
+name: flutter_tflite_detector
+description: A new flutter plugin project.
+version: 0.0.1
+author:
+homepage:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^1.1.31
+  path_provider: ^0.4.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: dev.vbonnet.fluttertflitedetector
+    pluginClass: FlutterTfliteDetectorPlugin
