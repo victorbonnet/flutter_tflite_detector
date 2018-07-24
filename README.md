@@ -1,4 +1,4 @@
-# flutter_tflite_detector
+# Flutter Tflite Detector
 
 A flutter plugin to run your custom retrain model from MobileNet. This plugin is under development API's might change.
 
@@ -70,3 +70,16 @@ Future<bool> recognizeImageFromFile(String path) async {
 }
 
 ```
+
+## Getting Started
+
+### Build the example
+```
+cd example
+flutter run
+```
+### Result samples
+
+##### Object detector
+
+##### Pets breed detector
