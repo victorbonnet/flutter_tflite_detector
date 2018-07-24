@@ -12,9 +12,19 @@ A flutter plugin to run your custom retrain model from MobileNet. This plugin is
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
 
-Here is a very good tutorial how to retrain a model using Cloud TPUs. By Sara Robinson, Aakanksha Chowdhery, and Jonathan Huang.
-
 The sample project use the model from the Tensorflow repository for object detection and a pet breed detector built following this very good [tutorial](https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193?linkId=54246631).
+
+### Build the example
+```
+cd example
+flutter run
+```
+#### Result samples
+
+##### Object detector
+![screenshot_20180724-151122](https://user-images.githubusercontent.com/951998/43141130-76e3dfb0-8f55-11e8-9603-882096c02ab6.png)
+##### Pets breed detector
+![screenshot_20180724-151134](https://user-images.githubusercontent.com/951998/43141133-789ef394-8f55-11e8-9b7e-24b23c3d0195.png)
 
 ### Installation
 
@@ -70,16 +80,3 @@ Future<bool> recognizeImageFromFile(String path) async {
 }
 
 ```
-
-## Getting Started
-
-### Build the example
-```
-cd example
-flutter run
-```
-### Result samples
-
-##### Object detector
-
-##### Pets breed detector
